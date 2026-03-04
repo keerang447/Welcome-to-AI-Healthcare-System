@@ -1,0 +1,5 @@
+<h2>Your History</h2>
+{% for row in records %}
+<p>Age: {{row.age}} | BP: {{row.bp}} | Sugar: {{row.sugar}} | Result: {{row.result}}</p>
+{% endfor %}
+<a href="/dashboard">Back</a>
